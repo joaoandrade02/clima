@@ -1,10 +1,12 @@
 Sobre a atividade: É feito o consumo da API de um site de climatologia que consegue disponibilizar em tempo real a temperatura e outros fatores climatológicos com base em sua localização geográfica.
 Para conseguir a chave, é preciso criar uma conta no site (https://home.openweathermap.org) e depois ir para o seguinte endereço: https://home.openweathermap.org/api_keys
+
 Como realizar tal atividade:
 Inicialmente, é preciso inicializar a aplicação com o create-react-app <nome do projeto>
 Após isso, é preciso abrir o arquivo no VSCode e, no terminal, instalar o axios <yarn add axios>
 Com isso feito, agora é preciso partir para a codificação
 No meu caso, estarei colocando a codificação finalizada, pois a passo a passo pode ser vista no tutorial deixado pelo professor André no moodle.
+  
   No App.js localiza-se a imensa maioria da codificação da aplicação:
   
   // AQUI SETAMOS AS FERRAMENTAS A SEREM UTILIZADAS
