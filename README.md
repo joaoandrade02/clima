@@ -18,7 +18,7 @@ function App() {
   const [location, setLocation] = useState(false);
   const [weather, setWeather] = useState(false);
 
-  // POR QUE let e não const/var? PORQUE EU QUERO (BRINKS, É PORQUE let é flexível a valores em constante mudança)
+  // POR QUE let e não const/var? PORQUE let é flexível a valores em constante mudança
   // LOGO ABAIXO ESTAMOS CONFIGURANDO O MODO QUE OS DADOS DA API APARECERÃO NA INTERFACE
   let getWeather = async (lat, long) => {
     let res = await axios.get("http://api.openweathermap.org/data/2.5/weather", {
